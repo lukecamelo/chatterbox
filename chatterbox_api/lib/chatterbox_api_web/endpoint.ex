@@ -46,4 +46,5 @@ defmodule ChatterboxApiWeb.Endpoint do
   plug Plug.Head
   plug Plug.Session, @session_options
   plug ChatterboxApiWeb.Router
+  plug CORSPlug
 end
